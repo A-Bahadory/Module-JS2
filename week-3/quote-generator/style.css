@@ -1,1 +1,39 @@
 /** Write your CSS in here **/
+body {
+  background-color: orange;
+}
+.myContent {
+  background-color: white;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  margin: 8rem 6rem;
+
+  /* padding: 5rem;
+  margin: 12rem 9rem 0rem 9rem; */
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: orange;
+  font-size: 40px;
+}
+#new-quote {
+  padding: 0.8rem 1rem;
+  background-color: orange;
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+  border: none;
+}
+.btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+/* #new-quote {
+  background-color: aquamarine;
+  padding: 1rem 0rem 1rem 0rem;
+  margin: 1rem 1rem 1rem 95rem;
+} */

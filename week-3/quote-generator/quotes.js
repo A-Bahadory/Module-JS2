@@ -494,7 +494,9 @@ const quotes = [
 
 function displayQuotes() {
   const randomQuote = pickFromArray(quotes);
+  // calling pickFromArray() function withe parameter array quotes.
   document.getElementById("quote").textContent = randomQuote.quote;
+  // getting HTML p tag id "quote" to assign its text content to quotes array's
   document.getElementById("author").textContent = `- ${randomQuote.author}`;
 }
 
