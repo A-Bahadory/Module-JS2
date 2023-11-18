@@ -2,24 +2,38 @@
 body {
   background-color: orange;
 }
-.myContent {
+.quote-Content {
   background-color: white;
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  flex-direction: column;
-  margin: 8rem 6rem;
-
-  /* padding: 5rem;
-  margin: 12rem 9rem 0rem 9rem; */
+  margin: 6rem 5rem;
+  padding: 1rem;
 }
-p {
+.quote-mark {
+  color: orange;
+  font-size: 8rem;
+  margin-top: 5.5rem;
+  padding: 1rem;
+}
+.quote-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 1rem;
+}
+
+#quote {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: orange;
+  font-size: 40px;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+#author {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: orange;
   font-size: 40px;
 }
 #new-quote {
-  padding: 0.8rem 1rem;
+  padding: 22px 25px;
   background-color: orange;
   font-size: 20px;
   color: white;
@@ -29,7 +43,8 @@ p {
 .btn-wrapper {
   display: flex;
   flex-direction: column;
-  margin-right: 3rem;
+  align-items: end;
+  margin-right: 1rem;
 }
 
 /* #new-quote {
